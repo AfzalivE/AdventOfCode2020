@@ -1,8 +1,8 @@
 FROM gradle:jdk13
 
 # Or your actual UID, GID on Linux
-ARG USERNAME=vscode
-ARG USER_UID=1001
+ARG USERNAME=root
+ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
 ENV SDKMAN_DIR /usr/local/sdkman
