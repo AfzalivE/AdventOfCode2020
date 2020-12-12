@@ -1,6 +1,6 @@
 println("Start")
 // val input = listOf(1721, 979, 366, 299, 675, 1456)
-val input = readInput("day1.txt").map { it.toInt() }
+val input = readInput("day1.txt").readLines().map { it.toInt() }
 
 fun part1() {
     var i = 0

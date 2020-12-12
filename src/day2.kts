@@ -5,7 +5,7 @@ println("Start")
 //     "2-9 c: ccccccccc"
 // )
 
-val input = readInput("day2.txt")
+val input = readInput("day2.txt").readLines()
 
 val validPasswords = findValid(input)
 println("${validPasswords.size} valid passwords")

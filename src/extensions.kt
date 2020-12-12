@@ -1,5 +1,5 @@
 import java.io.File
 
-fun Any.readInput(filename: String): List<String> {
-    return File(javaClass.getResource(filename).toURI()).readLines()
+fun Any.readInput(filename: String): File {
+    return File(javaClass.getResource(filename).toURI())
 }

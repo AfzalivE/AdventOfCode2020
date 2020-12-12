@@ -1,6 +1,6 @@
 println("Start")
 
-val input = readInput("day3.txt").map {
+val input = readInput("day3.txt").readLines().map {
     it.repeat(500)
 }
 val slopes = listOf(
